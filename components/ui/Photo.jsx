@@ -22,10 +22,13 @@ const Photo = () => {
         >
           <Image
             src="/assets/profile.jpg"
+            alt="profile"
             priority
             quality={100}
-            fill
-            className=" object-contain"
+            fill={true}
+            
+            className=" object-cover"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </motion.div>
         {/* circle  */}
