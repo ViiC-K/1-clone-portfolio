@@ -26,9 +26,8 @@ const Photo = () => {
             priority
             quality={100}
             fill={true}
-            
             className=" object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            sizes="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px]"
           />
         </motion.div>
         {/* circle  */}
